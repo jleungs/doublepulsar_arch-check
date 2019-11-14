@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int
-main(void) {
+main(void)
+{
 	unsigned char sc[] = "\x31\xc0\x40\x90\xc3";
 	(*(void(*)())sc)();
 
